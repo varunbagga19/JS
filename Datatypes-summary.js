@@ -29,3 +29,29 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world");
 }
+
+
+// ++++++++++++++++++++++++++++++++++++ Memory ++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), heap(non-primitive)
+
+let myyoutubename = 'varun bagga';
+
+let anotherName = myyoutubename
+console.log(anotherName);
+anotherName  = 'bagga varun';
+console.log(anotherName);
+console.log(myyoutubename);
+
+let user1 = {
+    email:"SDfs",
+    UPI:'123213',
+}
+
+let user2 = user1;
+
+user2.UPI = '453453453';
+
+console.log(user1);
+
+
